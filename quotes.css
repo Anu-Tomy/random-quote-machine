@@ -1,0 +1,66 @@
+body{
+background-color: #888;
+font-family: Times New Roman;
+}
+h1{
+color: white;
+font-size:50px;
+}
+
+.quotes{
+font-size:30px;	
+background-color:#eee;
+width:50%;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+border-color:black;
+border-style: solid;
+border-radius:5px;
+margin-top:20px;
+padding:20px;
+}
+.author{
+	font-size:20px;
+	font-style:italic;
+}
+#tweet-quote, #tumblr-quote{
+ float:left;
+ padding:0px;
+ padding-top:8px;
+ text-align:center;
+ font-size:1.2em;
+ margin-right:5px;
+ height:30px;
+ width:50px;
+ }
+ .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-tumblr {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+footer {
+  min-height: 20vh;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  color: white;
+}
